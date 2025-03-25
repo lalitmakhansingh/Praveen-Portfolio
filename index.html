@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Praveen Kumar</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Interest</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#contact" style="text-decoration: none;"><button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button></a>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Praveen Kumar</span>
+          </h2>
+          <p class="text-muted">
+            I'm an MBA candidate specializing in Finance, with a strong
+             analytical mindset and expertise in equity research. With a proven track
+              record in strategic market analysis and client negotiations,
+             I bring a results-driven approach to uncovering investment opportunities and driving financial success.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/banner-01.png" class="img-fluid pic1" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Providing a Wide Range of Financial Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/Financial Analysis.webp"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Financial Analysis</h4>
+              <ul class="text-muted">
+                <li>Identify investment opportunities through data-driven insights.</li>
+                <li>Conduct in-depth market research and company valuation.</li>
+              </ul>
+              <!-- <a href="" class="link">Read More</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/Financial Modelling.webp"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Financial Modeling & Forecasting</h4>
+              <ul class="text-muted">
+                <li>Develop projection models for budgeting and financial planning.</li>
+                <li>Perform risk analysis and strategic decision-making.</li>
+              </ul>
+              <!-- <a href="" class="link">Read More</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/Buisness Strategy.webp"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Business Strategy & Investment Research</h4>
+              <ul class="text-muted">
+                <li>Provide data-backed recommendations for smart investments.</li>
+                <li>Analyze financial reports to uncover trends and insights.</li>
+              </ul>
+              <!-- <a href="" class="link">Read More</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Financial Modeling</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Financial Reporting</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Business Analysis</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">Budgeting Forecasting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Strategic Financial Insights</h3>
+            <p class="text-muted">
+              With a strong foundation in financial modeling, business analysis, and reporting, I excel at extracting valuable insights
+               from complex financial data. My expertise in budgeting, forecasting, and projection modeling enables me to develop
+                data-driven strategies that enhance financial performance. Whether analyzing investment opportunities or optimizing
+                 financial reports, I bring precision, analytical depth, and a strategic mindset to every task.
+               Passionate about finance, I continuously refine my skills to stay ahead in the industry and deliver impactful results.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Entry Level Web Developer Resume.pdf"
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>PROJECT AND EXPERIENCES</small>
+        <h3>Check My Portfolio</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="game">Buisness Plan</button>
+        <button class="filter-item" data-filter="website">Financial Analysis</button>
+        <button class="filter-item" data-filter="webapp">Experience</button>
+        <!-- <button class="filter-item" data-filter="brand">Brand</button> -->
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/Buisness.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Buisness Plan</h4>
+                <span class="badge bg-secondary badge-pill">Business
+                  Planning</span>
+                <span class="badge bg-secondary badge-pill">Market Research</span>
+                <span class="badge bg-secondary badge-pill mb-2">Strategic Marketing</span
+                ><br />
+                <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal4">Read More</a>
+              </div>
+            </div>  
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Financial Analysis</h4>
+                <span class="badge bg-secondary badge-pill">Financial Statement Analysis</span>
+                <span class="badge bg-secondary badge-pill">Ratio Analysis</span>
+                <span class="badge bg-secondary badge-pill mb-2">Reporting</span
+                ><br />
+                <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal5">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/32.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Experience</h4>
+                <span class="badge bg-secondary badge-pill">Client Management</span>
+                <span class="badge bg-secondary badge-pill">Sales & Negotiation</span>
+                <span class="badge bg-secondary badge-pill mb-2">Strategic Planning</span
+                ><br />
+                <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal6">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/piceditor.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">PicEditor App</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">App</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/tictactoe.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">TicTacToe Game</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Game</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/lang-translator.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Lang Translator</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div> -->
+
+        <!-- from here the pop outs are made for Projects and Experiences-->
+        </div>
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/Buisness.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Praveen Kumar</small
+                    ><span class="text-muted ms-2">2024</span>
+                  <h4 class="card-title mt-3">Business Plan for Army Ward's Skill Institute</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <!-- <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i> -->
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">Developed a comprehensive business plan to teach both hard
+                    and soft skills to army wards in remote areas. The project involved detailed market research, revenue modeling, and
+                    marketing strategies using WhatsApp groups, school connections, and door-todoor campaigns. Key Skills: Business
+                    Planning, Market Research, Strategic Marketing</p>
+                </div>
+                <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+                  <!-- here download attribute is used for adding download functionality to button  -->
+                  <a
+                    href="images/Team lakshya.pdf"
+                    download="Buisness Plan"
+                    style="text-decoration: none;color: #fff;"
+                    >Check Buisness Plan</a
+                  >
+                </button>
+              </div>
+              <!-- <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div> -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Praveen Kumar</small
+                    ><span class="text-muted ms-2 ms-md-0">2024</span>
+                  <h4 class="card-title mt-3">Financial Analysis of Bajaj Hindusthan Sugar Ltd</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <!-- <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button> -->
+                  </div>
+                  <p class="text-muted mt-3">Conducted a comprehensive analysis of Bajaj Hindusthan
+                    Sugar Ltd’s financial statements for 2019-2023. Evaluated key metrics like revenue growth, net income, net margin,
+                    and cash position. Presented insights on the company’s financial health and managerial strategies. Key Skills:
+                    Financial Statement Analysis, Ratio Analysis, Reporting.
+                    </p>
+                </div>
+              </div>
+              <!-- <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div> -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/32.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small></small
+                    ><span class="text-muted ms-2 ms-md-0">September ,2022</span>
+                  <h4 class="card-title mt-3">Travel Agent </h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <!-- <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button> -->
+                  </div>
+                  <ul class="text-muted mt-3"><li>Successfully organized and managed 50 family trips to Dubai within a 7-month tenure.</li>
+                    <li>Generated a total revenue of 12 lakhs, with the most successful trip being for a family of 13 members.</li>
+                    <li>Worked independently after the first month by managing customer relationships through CRM.</li>
+                    <li>Developed expertise in strategic communication, client negotiations, and travel planning.</li>
+                    <li>Effectively closed deals by providing curated travel options and employing persuasive sales tactics to minimize
+                      price negotiations.</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div> -->
+              <!-- <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div> -->
+              
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="col-md-6 col-10 pagal " data-aos="slide-left">
+        <div class="heading">
+          <h3>Certifications</h3>
+        </div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10 mt-5 " data-aos="slide-right">
+          <img src="images/5.jpg" class="img-fluid " alt="" />
+        </div>
+        <div class="col-md-6 col-10 " data-aos="slide-left">
+          <div class="heading">
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <img src="images/10.png" alt="">
+                      <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+                        <!-- here download attribute is used for adding download functionality to button  -->
+                        <a
+                          href="images/101.jpeg"
+                          download="Certificate 10"
+                          style="text-decoration: none;color: #fff;"
+                          >View Certificate</a
+                        >
+                      </button>
+                      <h4></h4>
+                      <small class="fs-6 text-muted"></small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <img src="images/11.png" alt="">
+                      <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+                        <!-- here download attribute is used for adding download functionality to button  -->
+                        <a
+                          href="images/111.pdf"
+                          download="Ceertificate 11"
+                          style="text-decoration: none;color: #fff;"
+                          >View Certificate</a
+                        >
+                      </button>
+                      <h4></h4>
+                      <small class="fs-6 text-muted"></small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <img src="images/12.png" alt="">
+                      <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+                        <!-- here download attribute is used for adding download functionality to button  -->
+                        <a
+                          href="images/121.pdf"
+                          download="Ceertificate 12"
+                          style="text-decoration: none;color: #fff;"
+                          >View Certificate</a
+                        >
+                      </button>
+                      <h4></h4>
+                      <small class="fs-6 text-muted"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog pb-5" id="blog">   
+      <!-- REMOVED CLASS mt-5 uppar sei -->
+      <div class="heading text-center pt-5">
+        <small>Interest</small>
+        <h3>Hobbies and Co-curricular Activities</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="images/5.jpg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <!-- <small>By Pawan Kumavat</small
+              ><span class="ms-3">Mar 8,2022</span> -->
+              <h4 class="card-title">
+                <a href="">Idea Pitching & Innovation Challenges</a>
+              </h4>
+              <p class="text-muted"> Through these competitions, I developed and presented innovative solutions,
+                 demonstrating creativity, problem-solving, and strategic thinking. The experience enhanced my
+                  ability to analyze real-world challenges and effectively communicate ideas, further strengthening
+                   my critical thinking and teamwork skills. </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img
+              src="images/30.jpg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <!-- <small>By Pawan Kumavat</small
+              ><span class="ms-3">Mar 8,2022</span> -->
+              <h4 class="card-title">
+                <a href="">Athletics & Sports</a>
+              </h4>
+              <p class="text-muted">
+                With a passion for outdoor sports, I have demonstrated exceptional performance in athletics and endurance
+                 running.Won gold medals in the 800m race and 400m relay at XLRI  & completion of the Tata Marathon 10km 
+                 and a Half Marathon. Through these achievements,     I have cultivated discipline, strategic pacing, and
+                  mental fortitude, reinforcing my
+                  ability to push boundaries and excel under pressure.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img
+              src="images/40.jpg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <!-- <small>By Pawan Kumavat</small
+              ><span class="ms-3">Mar 8,2022</span> -->
+              <h4 class="card-title">
+                <a href="">Leadership in Sports Management</a>
+              </h4>
+              <p class="text-muted">
+                As a Sports Associate, I played a key leadership role in organizing and managing college sports events,
+                 including Chakravyuh and XLRI tournaments. Beyond personal participation, I worked closely with the
+                  administration to improve sports infrastructure and resources.I actively promoted a vibrant sports culture that emphasized holistic development, discipline, 
+                    and collaboration among students.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/Buisness.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small></small
+                    ><span class="text-muted ms-2"></span>
+                  <h4 class="card-title mt-3">Idea Pitching & Innovation Challenges</h4>
+                  <div class="social-links mt-4">
+                      <!-- <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button> -->
+                  </div>
+                  <ul class="text-muted">
+                    <li>Secured 3rd place in the Intra-College Idea Competition.</li>
+                    <li>Ranked among the Top 10 in the Inter-College Idea Competition.</li>
+                    <li>Presented impactful and innovative solutions to real-world problems.</li>
+                    <li>Demonstrated strong analytical, problem-solving, and strategic thinking skills.</li>
+                    <li>Showcased effective presentation and communication abilities.</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div> -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/33.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <!-- <small>By Pawan Kumavat</small
+                    ><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span> -->
+                  <h4 class="card-title mt-3">Athletics & Sports</h4>
+                  <div class="social-links mt-4">
+                      <!-- <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button> -->
+                  </div>
+                  <ul>
+                    <li>Won Gold Medals in the 800m Race and 400m Relay at XLRI.</li>
+                    <li>Successfully completed the Tata Marathon 10km in 45 minutes 36 seconds.</li>
+                    <li>Finished a Half Marathon in 1 hour 57 minutes, showcasing long-distance running ability.</li>
+                    <li>Displayed exceptional stamina, resilience, and competitive spirit in endurance sports.</li>
+                    <li>Developed strong team coordination in relay events and perseverance in marathon running.</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+               -->
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/41.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <!-- <small>By Pawan Kumavat</small
+                    ><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span> -->
+                  <h4 class="card-title mt-3">Leadership in Sports Management</h4>
+                  <div class="social-links mt-4">
+                      <!-- <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button> -->
+                  </div>
+                  <ul>
+                    <li>Organized & managed major sports events like Chakravyuh and XLRI tournaments.</li>
+                    <li> Represented college in football, basketball, and volleyball at various competitive levels.</li>
+                    <li>Played football at the state and command levels, earning multiple medals.</li>
+                    <li>Improved sports facilities and collaborated with administration for better resources.</li>
+                    <li>Increased student participation through workshops and regular practice sessions.</li>
+                    <li>Managed logistics & event execution, ensuring seamless tournament operations.</li>
+                    <li>Fostered teamwork & discipline as a floor in-charge, encouraging a sports-driven culture.</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+               -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Contact :</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Army Institute Of Management, Kolkata</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 9749492570</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>praveenkumar2002lalit@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-instagram"></i>
+            </div>
+            <div class="col-11">
+              <p>praveengarakoti1947</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Interest</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <a target="blank" href="https://www.linkedin.com/in/praveen-kumar-pv01810/">
+          <button class="rounded-pill dribble">
+            <i class="bi bi-linkedin"></i>
+          </button>
+        </a>
+        <a target="blank" href="https://wa.me/9749492570">
+          <button  class="rounded-pill whatsapp">
+            <i class="bi bi-whatsapp"></i>
+          </button>
+        </a>
+        <a target="blank" href="https://www.instagram.com/praveengarakoti1947?igsh=MWF1N2Ewbjh2N2o3dw==">
+          <button href="https://www.instagram.com/praveengarakoti1947?igsh=MWF1N2Ewbjh2N2o3dw==" class="rounded-pill behance">
+            <i class="bi bi-instagram"></i>
+          </button>
+        </a>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p><a style="text-decoration: none; " target="_blank" href="https://www.instagram.com/praveengarakoti1947?igsh=MWF1N2Ewbjh2N2o3dw==">praveengarakoti1947</a></p>
+      <p><a  target="_blank" href="https://www.linkedin.com/in/praveen-kumar-pv01810/"></a>Praveen Kumar</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
